@@ -1,0 +1,17 @@
+# Dataset files: rebuild with src/download.py + src/build_dataset.py
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+~$*.docx

@@ -1,0 +1,55 @@
+{
+  "files": {
+    "normalTrafficTraining.txt": {
+      "split": "train",
+      "label": 0,
+      "parsed_requests": 36000,
+      "expected": 36000,
+      "matches_expected": true,
+      "methods": {
+        "GET": 28000,
+        "POST": 8000
+      },
+      "parse_failures": 0,
+      "parse_failure_examples": [],
+      "duplicates_within_file": 26356
+    },
+    "normalTrafficTest.txt": {
+      "split": "test",
+      "label": 0,
+      "parsed_requests": 36000,
+      "expected": 36000,
+      "matches_expected": true,
+      "methods": {
+        "GET": 28000,
+        "POST": 8000
+      },
+      "parse_failures": 0,
+      "parse_failure_examples": [],
+      "duplicates_within_file": 26378
+    },
+    "anomalousTrafficTest.txt": {
+      "split": "test",
+      "label": 1,
+      "parsed_requests": 25065,
+      "expected": null,
+      "matches_expected": null,
+      "methods": {
+        "GET": 15088,
+        "POST": 9580,
+        "PUT": 397
+      },
+      "parse_failures": 0,
+      "parse_failure_examples": [],
+      "duplicates_within_file": 9111
+    }
+  },
+  "duplicates": {
+    "_note": "Unique request contents (method+path+query+body, headers ignored) shared between files.",
+    "normal_test_and_anomalous_test": 0,
+    "train_and_anomalous_test": 0,
+    "train_and_normal_test": 626,
+    "_examples_normal_and_anomalous": []
+  },
+  "param_vocabulary_size": 20
+}

@@ -1,0 +1,230 @@
+{
+  "model": "IsolationForest",
+  "params": {
+    "n_estimators": 100,
+    "max_samples": 256,
+    "contamination": "auto",
+    "max_features": 1.0,
+    "bootstrap": false,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "features": [
+    "is_post",
+    "path_length",
+    "path_depth",
+    "nonstandard_extension",
+    "query_length",
+    "body_length",
+    "num_params",
+    "unseen_param_names",
+    "max_param_value_length",
+    "mean_param_value_length",
+    "special_char_count",
+    "pct_escape_count",
+    "digit_ratio",
+    "letter_ratio",
+    "non_alnum_ratio",
+    "payload_entropy",
+    "sql_keyword_count",
+    "xss_keyword_count",
+    "path_traversal_flag",
+    "ssi_cmd_flag",
+    "crlf_flag"
+  ],
+  "n_train": 36000,
+  "n_test": 61065,
+  "test_class_counts": [
+    36000,
+    25065
+  ],
+  "metrics": {
+    "recall": 0.8289646918013166,
+    "precision": 0.5654800783801437,
+    "f1": 0.672329272436053,
+    "roc_auc": 0.8038604273333777,
+    "average_precision": 0.7603935592162758,
+    "accuracy": 0.6683370179317121,
+    "confusion_matrix [[TN, FP], [FN, TP]]": [
+      [
+        20034,
+        15966
+      ],
+      [
+        4287,
+        20778
+      ]
+    ]
+  },
+  "seed_sensitivity": [
+    {
+      "seed": 0,
+      "recall": 0.8045880710153601,
+      "f1": 0.6738168028199603,
+      "roc_auc": 0.8087905950085333
+    },
+    {
+      "seed": 1,
+      "recall": 0.7805705166566926,
+      "f1": 0.6802614651785404,
+      "roc_auc": 0.8110097967506703
+    },
+    {
+      "seed": 2,
+      "recall": 0.8144823459006583,
+      "f1": 0.6917876687958523,
+      "roc_auc": 0.812934070860208
+    },
+    {
+      "seed": 3,
+      "recall": 0.7944544185118692,
+      "f1": 0.6839312393742165,
+      "roc_auc": 0.8036031235454486
+    },
+    {
+      "seed": 42,
+      "recall": 0.8289646918013166,
+      "f1": 0.672329272436053,
+      "roc_auc": 0.8038604273333777
+    }
+  ],
+  "ablation_generic_features": {
+    "features": "generic only",
+    "recall": 0.7990025932575304,
+    "f1": 0.6851522408484434,
+    "roc_auc": 0.8105016972538068
+  },
+  "unsupervised_pool_anomaly_rate": 0.05,
+  "settings_comparison": {
+    "A_normal_only | pool=5pct": {
+      "n": 37895,
+      "anomaly_rate": 0.0500065971764085,
+      "recall": 0.8232189973614775,
+      "precision": 0.08901061280383431,
+      "f1": 0.1606508418722002,
+      "roc_auc": 0.8004369979478159,
+      "average_precision": 0.33762306253670643,
+      "accuracy": 0.569837709460351,
+      "confusion_matrix [[TN, FP], [FN, TP]]": [
+        [
+          20034,
+          15966
+        ],
+        [
+          335,
+          1560
+        ]
+      ]
+    },
+    "B_unsupervised | pool=5pct": {
+      "n": 37895,
+      "anomaly_rate": 0.0500065971764085,
+      "recall": 0.829023746701847,
+      "precision": 0.24728474736345032,
+      "f1": 0.38094083414161006,
+      "roc_auc": 0.9303852829082382,
+      "average_precision": 0.676442616610182,
+      "accuracy": 0.8652592690328539,
+      "confusion_matrix [[TN, FP], [FN, TP]]": [
+        [
+          31218,
+          4782
+        ],
+        [
+          324,
+          1571
+        ]
+      ]
+    },
+    "A_normal_only | pool=full_test_41pct": {
+      "n": 61065,
+      "anomaly_rate": 0.41046425939572584,
+      "recall": 0.8289646918013166,
+      "precision": 0.5654800783801437,
+      "f1": 0.672329272436053,
+      "roc_auc": 0.8038604273333777,
+      "average_precision": 0.7603935592162758,
+      "accuracy": 0.6683370179317121,
+      "confusion_matrix [[TN, FP], [FN, TP]]": [
+        [
+          20034,
+          15966
+        ],
+        [
+          4287,
+          20778
+        ]
+      ]
+    },
+    "B_unsupervised | pool=full_test_41pct": {
+      "n": 61065,
+      "anomaly_rate": 0.41046425939572584,
+      "recall": 0.2737283064033513,
+      "precision": 1.0,
+      "f1": 0.42980642736327757,
+      "roc_auc": 0.9075695851896182,
+      "average_precision": 0.8904432558626583,
+      "accuracy": 0.7018914271677721,
+      "confusion_matrix [[TN, FP], [FN, TP]]": [
+        [
+          36000,
+          0
+        ],
+        [
+          18204,
+          6861
+        ]
+      ]
+    }
+  },
+  "seed_sensitivity_setting_b_5pct": [
+    {
+      "seed": 0,
+      "recall": 0.8432717678100264,
+      "f1": 0.32449994923342473,
+      "roc_auc": 0.9319098798006451
+    },
+    {
+      "seed": 1,
+      "recall": 0.8686015831134565,
+      "f1": 0.30069419071976616,
+      "roc_auc": 0.931318462327763
+    },
+    {
+      "seed": 2,
+      "recall": 0.8094986807387863,
+      "f1": 0.3557926475704511,
+      "roc_auc": 0.9194720902961009
+    },
+    {
+      "seed": 3,
+      "recall": 0.795778364116095,
+      "f1": 0.34417436950815933,
+      "roc_auc": 0.9185061858692465
+    },
+    {
+      "seed": 42,
+      "recall": 0.829023746701847,
+      "f1": 0.38094083414161006,
+      "roc_auc": 0.9303852829082382
+    }
+  ],
+  "features_never_split_on": {
+    "A": [
+      "nonstandard_extension",
+      "unseen_param_names",
+      "xss_keyword_count",
+      "path_traversal_flag",
+      "ssi_cmd_flag",
+      "crlf_flag"
+    ],
+    "B_5pct": [],
+    "B_full_test_41pct": []
+  },
+  "versions": {
+    "python": "3.13.9",
+    "sklearn": "1.7.2",
+    "pandas": "2.3.3",
+    "numpy": "2.3.5"
+  }
+}
