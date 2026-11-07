@@ -26,7 +26,7 @@ Tick boxes as you go and copy anything surprising into CONTEXT.md §6.
 
 ### Mon Nov 2: Isolation Forest (plan step 4)
 - [x] (Done early, Oct 30) Notebook 02 run locally end to end: Setting A (normal-only) + Setting B (unsupervised). First numbers in CONTEXT.md §6
-- [ ] Push repo to GitHub, set `REPO_URL` in both notebooks
+- [x] Push repo to GitHub, set `REPO_URL` in both notebooks (Nov 7: github.com/Sleepycornflake/WebTraffic-Anamoly)
 - [ ] Re-run `02_isolation_forest.ipynb` in Colab; check the numbers match the local run (small sklearn-version differences are possible; if so, report the Colab run)
 - [ ] Commit `results/figures/*.png` and `results/metrics/isolation_forest_run.json`
 

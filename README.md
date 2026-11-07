@@ -33,7 +33,7 @@ paper/
 
 ## Running it
 
-**In Google Colab (planned route):** push this repo to GitHub, set `REPO_URL` in the first cell of each notebook, then open the notebook in Colab (File → Open notebook → GitHub). The first cell clones the repo; everything else runs as is. Colab already has numpy, pandas, scikit-learn and matplotlib.
+**In Google Colab (planned route):** repo is https://github.com/Sleepycornflake/WebTraffic-Anamoly. In Colab: File → Open notebook → GitHub, paste the repo URL, pick a notebook. The first cell clones the repo (sign in to GitHub in that dialog if the repo is private, or the clone will fail); everything else runs as is. Colab already has numpy, pandas, scikit-learn and matplotlib. The dataset is not stored in git: notebook 01 rebuilds it, and notebook 02 rebuilds it automatically if it is missing (about a minute, longer on a slow connection).
 
 **Locally (optional):** your Anaconda install (Python 3.13, scikit-learn 1.7.2) already has everything. Both notebooks were run end to end with it on Oct 30.
 
