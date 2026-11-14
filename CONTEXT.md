@@ -77,7 +77,7 @@ Paste this at the start of any new Claude chat (or give it to a teammate's agent
 - Landauer et al. 2023 has **four** authors: Landauer, Onder, Skopik, Wurzenberger.
 - 10.1145/3460345 = He, He, Chen, Yang, Su, Lyu (2021), "A Survey on Automated Log Analysis for Reliability Engineering," *ACM Computing Surveys* 54(6). Now usable.
 - 10.1109/ICRITO48877.2020.9197818 = Yadav, Kumar, Dhavale (2020), "A Survey on Log Anomaly Detection using Deep Learning," ICRITO 2020, pp. 1215-1220. Now usable.
-- Liu et al. (Isolation Forest) and Pang et al. are **not** on her list: proposed additions, need her OK.
+- She then added two more (both checked on Crossref): **Liu, Ting, Zhou (2012)**, "Isolation-Based Anomaly Detection," *ACM TKDD* 6(1), 1-39, now the primary Isolation Forest citation; and **Xu, Pang, Wang, Wang (2023)**, "Deep Isolation Forest for Anomaly Detection," *IEEE TKDE* 35(12), 12591-12604. Liu 2008 and Pang 2021 are no longer needed; the case study cites only her sources.
 
 ### Verified (opened and confirmed)
 - Ali, W. A., Manasa K. N., Aljunid, M., Bendechache, M., & Sandhya, P. (2020). A Review of Current Machine Learning Approaches for Anomaly Detection in Network Traffic. *Journal of Telecommunications and the Digital Economy*, 8(4), 64-95. doi:10.18080/jtde.v8n4.307 (structural template for the survey)

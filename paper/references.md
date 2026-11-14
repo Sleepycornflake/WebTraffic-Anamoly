@@ -17,12 +17,11 @@ Status: ✅ verified (metadata confirmed) · ➕ proposed addition, needs Member
 | ✅ | C. Torrano-Giménez, A. Pérez-Villegas, G. Álvarez Marañón, "HTTP DATASET CSIC 2010," Information Security Institute, CSIC, 2010. | description PDF (hosted on petescully.co.uk mirror, do not cite the mirror) | Sec 6.1 dataset |
 | ✅ | B. K. Jha, Nisha, "Anomaly detection for web log data analysis: A review," *Int. J. Sci. Dev. Res.*, vol. 7, no. 6, 2022. | ijsdr.org/papers/IJSDR2206096.pdf | Sec 1, 7: web-log focus; 29.55% public-dataset figure. Cite survey content only |
 
-## Proposed additions (ask Member 1)
+## Added by Member 1 (Nov 14, in her Mendeley library; checked on Crossref)
 
-The case study relies on Isolation Forest's original papers; none of her six sources is the primary source for it.
+| Status | Reference (IEEE-style details) | Link | Use in paper |
+|---|---|---|---|
+| ✅ | F. T. Liu, K. M. Ting, Z.-H. Zhou, "Isolation-based anomaly detection," *ACM Trans. Knowl. Discov. Data*, vol. 6, no. 1, pp. 1–39, Mar. 2012. | doi:10.1145/2133360.2133363 | Sec 3 and throughout Sec 6: the method, default hyperparameters (100 trees, subsample 256), masking and swamping. Our primary Isolation Forest citation |
+| ✅ | H. Xu, G. Pang, Y. Wang, Y. Wang, "Deep isolation forest for anomaly detection," *IEEE Trans. Knowl. Data Eng.*, vol. 35, no. 12, pp. 12591–12604, Dec. 2023. | doi:10.1109/tkde.2023.3270293 | Sec 3–4 bridge (isolation on learned representations); Sec 6.5 |
 
-| Status | Reference | Why needed |
-|---|---|---|
-| ➕ | F. T. Liu, K. M. Ting, Z.-H. Zhou, "Isolation forest," in *Proc. 8th IEEE ICDM*, 2008, pp. 413–422. | Defines the method, default hyperparameters (100 trees, 256 samples), masking/swamping. Cited throughout Sec 6 |
-| ➕ | F. T. Liu, K. M. Ting, Z.-H. Zhou, "Isolation-based anomaly detection," *ACM Trans. Knowl. Discov. Data*, vol. 6, no. 1, 2012. | Optional; extended version of the above |
-| ➕ | G. Pang, C. Shen, L. Cao, A. van den Hengel, "Deep learning for anomaly detection: A review," *ACM Comput. Surv.*, vol. 54, no. 2, 2021. | Optional; Sec 6.5 cites it for deep representations. Landauer et al. could replace it |
+With these two, the case study now cites only Member 1's sources. Liu et al. 2008 (the ICDM conference version) and Pang et al. 2021 are no longer needed.
