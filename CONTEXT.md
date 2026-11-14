@@ -25,7 +25,11 @@ Paste this at the start of any new Claude chat (or give it to a teammate's agent
 
 ---
 
-## 2. Roles (swapped from the original plan)
+## 2. Roles
+
+> **Revised Nov 14:** the team re-split work across subjects. **Member 1** chose the sources (six links, see §4) and does the final review: citation check, consistency check, plagiarism check. **Member 2 (me)** writes the whole paper (Sections 1-8), the code and case study, the Word/IEEE formatting, and submits it. The table below is the original split, kept for the record. The real split goes into the paper's "Author contributions" paragraph.
+
+### Original split (Oct)
 
 | | Owner | Tasks |
 |---|---|---|
@@ -69,6 +73,12 @@ Paste this at the start of any new Claude chat (or give it to a teammate's agent
 
 ## 4. Sources
 
+**Nov 14: Member 1's source list** (six links) is the citation base; all four DOIs were checked on Crossref and both PDFs load. Full IEEE-style entries are in `paper/references.md`. Corrections to the lists below:
+- Landauer et al. 2023 has **four** authors: Landauer, Onder, Skopik, Wurzenberger.
+- 10.1145/3460345 = He, He, Chen, Yang, Su, Lyu (2021), "A Survey on Automated Log Analysis for Reliability Engineering," *ACM Computing Surveys* 54(6). Now usable.
+- 10.1109/ICRITO48877.2020.9197818 = Yadav, Kumar, Dhavale (2020), "A Survey on Log Anomaly Detection using Deep Learning," ICRITO 2020, pp. 1215-1220. Now usable.
+- Liu et al. (Isolation Forest) and Pang et al. are **not** on her list: proposed additions, need her OK.
+
 ### Verified (opened and confirmed)
 - Ali, W. A., Manasa K. N., Aljunid, M., Bendechache, M., & Sandhya, P. (2020). A Review of Current Machine Learning Approaches for Anomaly Detection in Network Traffic. *Journal of Telecommunications and the Digital Economy*, 8(4), 64-95. doi:10.18080/jtde.v8n4.307 (structural template for the survey)
 - Jha, B. K., & Nisha (2022). Anomaly Detection for Web Log Data Analysis: A Review. *IJSDR*, 7(6). (Secondary source: cite its survey content, not its own proposed system. Its conclusion says only 29.55% of reviewed results use public datasets, which supports the open-challenges section.)
@@ -96,6 +106,14 @@ Paste this at the start of any new Claude chat (or give it to a teammate's agent
 ---
 
 ## 6. Where I am now (update this each session)
+
+- **Update Sat Nov 14, 2026:**
+  - Case study 6.1-6.5 drafted and pushed (Nov 7); limitations blanks filled.
+  - Roles re-split (see §2). Member 1's six sources verified and recorded in `paper/references.md`.
+  - New target: complete paper **Mon Nov 16**, in the IEEE conference template, then submit to any venue (the course only needs proof of submission).
+  - Next: get Member 1's OK to add Liu et al. 2008; draft Sections 2-3, then 4-5, 1, 7, 8; build the Word document; Member 1 reviews; submit.
+
+### Earlier log
 
 - **Date:** Fri Oct 30, 2026
 - **Done so far:** Repo set up (`/data`, `/notebooks`, `/src`, `/paper`, `/results`). Scripts written: download (msudol mirror, raw files), parser, 21 documented features, dataset builder with count/duplicate report. Notebooks 01 (data) and 02 (Isolation Forest, seed check, no-signature ablation) ready for Colab. Paper section scaffolds and reference checklist in `/paper`.

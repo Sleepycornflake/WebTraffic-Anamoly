@@ -2,17 +2,27 @@
 
 Working title: *Machine Learning for Anomaly Detection in Web and API Traffic: An Overview*
 
-| # | Section | Owner | File | Status |
+## Who does what (revised Nov 14)
+
+The team re-split work across subjects: Member 2 writes this whole paper; Member 1 owns the sources and the final review.
+
+- **Member 1:** chose the literature (the six sources in [references.md](references.md)); final review of the full paper: citation check, consistency check, plagiarism check.
+- **Member 2:** dataset, code and case study; drafting all sections; Word/IEEE formatting; submission.
+
+This split goes into the paper's "Author contributions" paragraph.
+
+| # | Section | Written by | File | Status |
 |---|---|---|---|---|
-| 1 | Introduction | Member 1 | (her draft) | |
-| 2 | Background / taxonomy (supervised, unsupervised, semi-supervised) | Member 1 | (her draft) | |
-| 3 | Traditional ML approaches (Isolation Forest, One-Class SVM, LOF) | Member 1 | (her draft) | |
-| 4 | Deep learning approaches (Autoencoders, LSTM-based, embeddings) | Member 1 | (her draft) | |
-| 5 | Comparative discussion (table from published papers, not our results) | Member 1 | (her draft) | |
-| 6 | Case study: Isolation Forest on CSIC 2010 (illustrative) | **Me** | [sections/06_case_study.md](sections/06_case_study.md) | scaffold |
-| 7 | Open challenges / future directions (incl. case-study limitations) | Shared | [sections/07_limitations.md](sections/07_limitations.md) (my part) | scaffold |
-| 8 | Conclusion | Shared | | |
+| 1 | Introduction | Member 2 | | to draft |
+| 2 | Background / taxonomy (supervised, unsupervised, semi-supervised) | Member 2 | | to draft |
+| 3 | Traditional ML approaches (Isolation Forest, One-Class SVM, LOF) | Member 2 | | to draft |
+| 4 | Deep learning approaches (Autoencoders, LSTM-based, embeddings) | Member 2 | | to draft |
+| 5 | Comparative discussion (table from published papers, not our results) | Member 2 | | to draft |
+| 6 | Case study: Isolation Forest on CSIC 2010 (illustrative) | Member 2 | [sections/06_case_study.md](sections/06_case_study.md) | drafted Nov 7 |
+| 7 | Open challenges / future directions (incl. case-study limitations) | Member 2 | [sections/07_limitations.md](sections/07_limitations.md) | limitations drafted |
+| 8 | Conclusion | Member 2 | | to draft |
+| — | Final review (citations, consistency, plagiarism) | Member 1 | | after the full draft |
 
-Drafting happens in markdown here; at the Nov 7 merge everything moves into the shared Word/Google Doc so citations can be inserted with Mendeley Cite.
+Drafting happens in markdown here; the finished draft moves into one Word document in the IEEE conference template, with citations inserted via Mendeley Cite.
 
-Citation style: IEEE (to confirm Sun Nov 1).
+Citation style: IEEE. Target: complete paper Mon Nov 16, then submit to a venue (course only needs proof of submission).
