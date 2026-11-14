@@ -14,8 +14,8 @@ This split goes into the paper's "Author contributions" paragraph.
 | # | Section | Written by | File | Status |
 |---|---|---|---|---|
 | 1 | Introduction | Member 2 | | to draft |
-| 2 | Background / taxonomy (supervised, unsupervised, semi-supervised) | Member 2 | | to draft |
-| 3 | Traditional ML approaches (Isolation Forest, One-Class SVM, LOF) | Member 2 | | to draft |
+| 2 | Background / taxonomy (supervised, unsupervised, semi-supervised) | Member 2 | [sections/02_background.md](sections/02_background.md) | drafted Nov 14 |
+| 3 | Traditional ML approaches (Isolation Forest, One-Class SVM, LOF) | Member 2 | [sections/03_traditional_ml.md](sections/03_traditional_ml.md) | drafted Nov 14 |
 | 4 | Deep learning approaches (Autoencoders, LSTM-based, embeddings) | Member 2 | | to draft |
 | 5 | Comparative discussion (table from published papers, not our results) | Member 2 | | to draft |
 | 6 | Case study: Isolation Forest on CSIC 2010 (illustrative) | Member 2 | [sections/06_case_study.md](sections/06_case_study.md) | drafted Nov 7 |
